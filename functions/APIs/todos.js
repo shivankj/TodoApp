@@ -1,6 +1,10 @@
 const { user } = require('firebase-functions/lib/providers/auth');
 const { db } = require('../util/admin');
 
+//Changes
+
+
+
 exports.getAllTodos = (request, response) => {
 	db
         .collection('todos')
